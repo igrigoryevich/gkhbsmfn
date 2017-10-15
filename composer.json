@@ -1,0 +1,12 @@
+{
+    "name": "igrigoryevich/gkhbsmfn",
+    "require": {
+        "symfony/symfony": "2.8"
+    },
+    "authors": [
+        {
+            "name": "Ihor Nedopas",
+            "email": "i.grigoryevich@gmail.com"
+        }
+    ]
+}
