@@ -8,6 +8,7 @@ use Symfony\Component\Finder\Finder;
 $finder = new Finder();
 $finder->in('src/');
 
+echo "<h1>Hello GeekHub!</h1>";
 class LuckyController
 {
     /**
@@ -16,10 +17,8 @@ class LuckyController
     public function numberAction()
     {
         $number = mt_rand(0, 100);
-
         return new Response(
             '<html><body>Lucky number: '.$number.'</body></html>'
         );
     }
 }
-
